@@ -1,4 +1,4 @@
-function GameGallery( {images = [], id }) {
+function GameGallery( {images = [],}) {
 
     return (
         <div className="game-gallery">{ images.map((image,index) => (
